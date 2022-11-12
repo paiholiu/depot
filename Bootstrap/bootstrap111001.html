@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Bootstrap 106: inline</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <style>
+                        .container-fluid
+                        {
+                            background-color: #86b7fe;
+                        }
+                        .container
+                        {
+                            background-color: #86b7fe;; border: 0.5px solid red; 
+                        }
+                        #d1
+                        {
+                            background-color: mistyrose; border: 0.5px solid red;
+                        }
+                         #d2
+                        {
+                            background-color: pink; border: 0.5px solid red;
+                        }
+                         #d3
+                        {
+                            background-color: lightpink; border: 0.5px solid red;
+                        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Bootstrap頁面1</h1>
+            <p>container容器</p>
+            <div class="row">
+                <div id="d1" class="col-sm-4">
+                    Column 1
+                </div>
+                <div id="d2" class="col-sm-4">
+                    Column 2
+                </div>
+                <div id="d3" class="col-sm-4">
+                    Column 3
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <div class="container-fluid">
+            <h1>Bootstrap頁面2</h1>
+            <p>container-fluid</p>
+            <div class="row">   
+                <div class="col" style="background-color: mistyrose;">Column 1</div>
+                <div class="col" style="background-color: pink;">Column 2</div>
+                <div class="col" style="background-color: lightpink;">Column 3</div>
+            </div>
+        </div>
+    </body>
+</html>

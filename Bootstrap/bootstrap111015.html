@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Bootstrap 123: 網格向右移動offset-</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <style>
+                        div[class^="col"]
+                        {
+                            background-color: mistyrose; border: 0.5px solid black; height: 30px;
+                        } 
+                        div[class^="row"]
+                        {
+                            background-color: #86b7fe; border: 0.5px solid black; height: 150px;
+                        } 
+                       
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">   
+                <div class="col-md-4">col-md-4</div>
+                <div class="col-md-4 offset-md-4">col-md-4 offset-md-4</div>
+           </div>
+        <br>
+            <div class="row">   
+                <div class="col-md-3 offset-md-3">col-md-3 offset-md-3</div>
+                <div class="col-md-3 offset-md-3">col-md-3 offset-md-3</div>
+           </div>
+        <br>
+            <div class="row">   
+                <div class="col-md-6 offset-md-3">col-md-6 offset-md-3</div>
+            </div>
+    </body>
+</html>

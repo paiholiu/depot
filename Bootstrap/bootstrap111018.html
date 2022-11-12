@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Bootstrap 126: 指定順序order-first/order-last</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <style>
+                        div[class^="col"]
+                        {
+                            background-color: mistyrose; border: 0.5px solid black; height: 60px;
+                        } 
+                        div[class^="row"]
+                        {
+                            background-color: #86b7fe; border: 0.5px solid black; height: 100px;
+                        } 
+                       
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">   
+                <div class="col order-last">區塊1(指定順序為最後)</div>
+                <div class="col">區塊2(沒有指定順序，會在first之後)</div>
+                <div class="col order-first">區塊3(指定順序為最先)</div>
+           </div>
+            <br>
+         <div class="container">
+            <div class="row">   
+                <div class="col">區塊1(沒有指定順序，會在first之後)</div>
+                <div class="col order-last">區塊2(指定順序為最後)</div>
+                <div class="col order-first">區塊3(指定順序為最先)</div>
+           </div>
+        <br>
+         <div class="container">
+            <div class="row">   
+                <div class="col order-last">區塊1(指定順序為最後)</div>
+                <div class="col order-first">區塊2(指定順序為最先)</div>
+                <div class="col">區塊3(沒有指定順序，會在first之後)</div>
+           </div>  
+           
+       </div>
+    </body>
+</html>

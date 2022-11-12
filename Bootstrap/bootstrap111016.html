@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Bootstrap 124: 將column自動換行-100</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <style>
+                        div[class^="col"]
+                        {
+                            background-color: mistyrose; border: 0.5px solid black; height: 30px;
+                        } 
+                        div[class^="row"]
+                        {
+                            background-color: #86b7fe; border: 0.5px solid black; height: 100px;
+                        } 
+                       
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">   
+                <div class="col-6 col-sm-3">區塊1</div>
+                <div class="col-6 col-sm-3">區塊2</div>
+           </div>
+        <br>
+        <!-- 將column換到新行 -->
+            <div class="w-100"></div>
+            <div class="row">   
+                <div class="col-6 col-sm-3">區塊3</div>
+                <div class="col-6 col-sm-3">區塊4</div>
+            </div>
+       </div>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Bootstrap 121: 容器的垂直對齊排列方式: end</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <style>
+                        .container
+                        {
+                            display: flex;
+                            flex-direction: row;
+                            width: 150px;
+                            background-color: #dddddd;
+                        }
+                        .align-items-start
+                        {
+                            align-items: flex-start;
+                        }
+                        .align-content-center
+                        {
+                            align-items: center;
+                        }
+                        .align-content-end
+                        {
+                            align-items: end;
+                        }
+                        .block
+                        {
+                            width: 500px;
+                        }
+                        .red
+                        {
+                            background-color: red;
+                            padding: 3px 0px;
+                        }
+                        .orange
+                        {
+                            background-color: orange;
+                            padding: 10px 0px;
+                        }
+                        .green
+                        {
+                            background-color: green;
+                            padding: 9px 0px;
+                            font-size: 36px;
+                        }
+            
+            
+            
+            
+            
+            div[class^="col"]
+                        {
+                            background-color: mistyrose; border: 0.5px solid black; height: 30px;
+                        } 
+                        div[class^="row"]
+                        {
+                            background-color: #86b7fe; border: 0.5px solid black; height: 150px;
+                        } 
+                       
+
+        </style>
+    </head>
+    <body>
+        <span>align-items-end</span>
+        <div class="container align-items-end">
+            <div class="block red">區塊1</div>
+            <div class="block orange">區塊2</div>
+            <div class="block green">區塊3</div>
+        </div>
+    </body>
+</html>

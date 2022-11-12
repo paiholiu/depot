@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Bootstrap 105</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <style>
+            .menu li{
+                display: inline;
+            }
+            @media screen and (max-width:640px)
+            {
+                img
+                {
+                 max-width: 10%;   
+                 height: auto;
+                }
+                .menu li
+                {
+                    display: block;
+                    width: 60%;
+                    margin: 0 auto 10px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul class="menu">
+                <li><a href="#intro">關於老王</a></li>
+                <li><a href="#cat">關於老王的貓</a></li>
+                <li><a href="#hair">關於老王的頭髮</a></li>
+            </ul>
+        </nav>
+        <h1>Hello, 霸氣王總!</h1>
+        <img src="img/oldwang1.jpg" alt="oldwang"/>
+        <img src="img/oldwang2.jpg" alt="oldwang"/>
+        <img src="img/oldwang3.jpg" alt="oldwang"/>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Bootstrap 117: column的水平對齊方式</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <style>
+                        div[class^="col"]
+                        {
+                            background-color: mistyrose; border: 0.5px solid black; height: 30px;
+                        } 
+                        div[class^="row"]
+                        {
+                            background-color: #86b7fe; border: 0.5px solid black; height: 150px;
+                        } 
+                       
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-start">   
+                <div class="col-4">區塊1</div>
+                <div class="col-4">區塊2</div>
+           </div>
+        <br>
+            <div class="row justify-content-center">   
+                <div class="col-4">區塊3</div>
+                <div class="col-4">區塊4</div>
+           </div>
+        <br>
+            <div class="row justify-content-end">   
+                <div class="col-4">區塊5</div>
+                <div class="col-4">區塊6</div>
+            </div>
+    </body>
+</html>
