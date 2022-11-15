@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Bootstrap 138: 網格系統練習</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <style>
+                        div[class^="col"]
+                        {
+                            background-color: mistyrose; border: 2px solid #86b7fe; height: 50px;
+                        } 
+                        /*
+                         div[class^="row"]
+                        {
+                            background-color: #86b7fe; border: 0.5px solid black; height: 100px;
+                        } 
+                         */
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">   
+                <div class="col-xs-12 col-sm-12 col-md-12">頁首</div>
+           </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">   
+                <div class="col-xs-12 col-sm-12 col-md-2">導覽列</div>
+                <div class="col-xs-12 col-sm-8 col-md-6">內容區</div>
+                <div class="col-xs-12 col-sm-4 col-md-4">側邊欄</div>
+            </div>
+       </div>
+                <div class="container-fluid">
+            <div class="row">   
+                <div class="col-xs-12 col-sm-12 col-md-12">頁尾</div>
+           </div>
+        </div>
+    </body>
+</html>
